@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title> Anugrah M V | Python Developer</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{% static 'assets/vendors/themify-icons/css/themify-icons.css' %}">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="{% static 'assets/css/meyawo.css' %}">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Anugrah M V</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Projects</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Skills</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Anugrah </span>
+            </h1>
+            <p class="header-subtitle"> Python Devoloper</p>
+
+            <a href="https://github.com/Anugrxh">
+                <button class="btn btn-primary">Visit My Works</button>
+            </a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="{% static 'assets/imgs/me1.png' %}" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hello, my name is Anugrah M V. I hail from the beautiful city of Kannur. I am a proud graduate
+                        of the Bachelor of Computer Applications (BCA) course from Kannur University. Currently, I am
+                        enhancing my skills by pursuing a course in Python Django Full Stack Development.
+                        <br> <br>
+                        In addition to this, I have gained proficiency in Python, HTML, CSS, and MySQL. These skills
+                        have equipped me with a comprehensive understanding of web development and database management,
+                        and I am excited about applying these skills in real-world projects.
+                    </p>
+
+                    <a href="{% url 'download' %}" class="btn-rounded btn btn-outline-primary mt-4">Download Resume</a>
+
+
+
+<!--                    <button class="btn-rounded btn btn-outline-primary mt-4">Download-->
+<!--                        Resume</button>-->
+
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What is my </p>
+            <h6 class="section-title mb-6">Education</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/pencil-case.svg'%}" class="icon">
+                            <h6 class="title">10th level</h6>
+                            <p class="subtitle">SSLC <br>
+                                I have compleated SSLC in IMNSGHSS MAYYIL School In the Year 2018 with 95%</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/pencil-case.svg'%}" class="icon">
+                            <h6 class="title">PLUS TWO</h6>
+                            <p class="subtitle">HSS <br>
+                                I have compleated PLUS TWO in IMNSGHSS MAYYIL School In the Year 2020 with 81%</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/pencil-case.svg'%}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">PLUS TWO</h6>
+                            <p class="subtitle">I have compleated PLUS TWO in IMNSGHSS MAYYIL School In the Year 2020
+                                with 81%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/responsive.svg' %}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Graduation</h6>
+                            <p class="subtitle">BCA <br>
+                                I have compleated my graduation in Bachelor of Computer Applications Under Kannur
+                                University with 73%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/responsive.svg' %}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Python FullStack</h6>
+                            <p class="subtitle">compleated Python Django FullStack Development Course In Luminar
+                                technolab</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">Projects</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4" style="margin-top: 15px;">
+                    <a href="#" class="portfolio-card">
+                        <img src="{% static 'assets/imgs/folio-1.jpg' %}" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h5>MEDCARE</h5>
+                                <p class="font-weight-normal"> Flutter Framework , DART , Supabase , VSCODE , GIT</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4" style="margin-top: 15px;">
+                    <a href="#" class="portfolio-card">
+                        <img src="{% static 'assets/imgs/folio-1.jpg' %}" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h5>E-Commerce</h5>
+                                <p class="font-weight-normal">Python , Django Framework , HTML CSS , BOOTSTRAP , SQL , Angular , REST API
+                                </p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4" style="margin-top: 15px;">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/folio-1.jpg' %}"
+                            class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h5>Travalista</h5>
+                                <p class="font-weight-normal">Python , Django Framework , HTML CSS , BOOTSTRAP , SQL , Angular , REST API</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- <div class="col-md-4" style="margin-top: 15px;">
+                <a href="#" class="portfolio-card">
+                    <img class="portfolio-card-img" src="{% static 'assets/imgs/folio-3.jpg' %}"
+                        class="img-responsive rounded"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Web Designing</h5>
+                                <p class="font-weight-normal">Category: Web Templates</p>
+                        </span>
+                    </span>
+                </a>
+            </div> -->
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <!-- <p class="section-subtitle">How Much I Charge ?</p> -->
+            <h6 class="section-title mb-6">Work Experience</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <!-- <img class="pricing-card-icon" src="{% static 'assets/imgs/scooter.vg' %}"> -->
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Croswer</h6>
+                        <div class="pricing-card-list">
+                            <p>croswer is a leading Digital Consultancy Services company based in Kannur, Kerala, India
+                            </p>
+
+                            <p>Internship at Croswer in Flutter Framework during acadamic Year 2020 - 2023 , Developed
+                                MEDCARE Project About Hospital management System , Three web Applications and one
+                                Android Applications . </p>
+                            <p></i></p>
+                            <br><br>
+                            <p><b>From 07/2022 to 04/2023</b></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="pricing-card">
+                    <!-- <div class="pricing-card-header">
+                    <img class="pricing-card-icon" src="assets/imgs/startup.svg"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div> -->
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Luminar Technolab</h6>
+                        <div class="pricing-card-list">
+                            <p>Luminar technolab is a software training institute kerala Kochi</p>
+
+                            <p>Currently doing an Internship at Luminar technolab in Python Django FullStack development
+                            </p>
+                            <p>An e- commerce web site that Allows Users to buy electronic devices is work in progress
+                                using Django Framework</p>
+                            <p>A Website called Natures harvest which allows users to purchase Fresh vegitables and food
+                                items is also under development using django Framework</p>
+                            <br>
+                            <p><b>From 06/2023 to present</b></p>
+
+                        </div>
+                    </div>
+
+                    <!-- <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a> -->
+                </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact me on Linkdln</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="https://www.linkedin.com/in/anugrah-m-v-187203271/">
+                        <button class="btn btn-lg my-font btn-light rounded">Linkedin
+                        </button>
+                    </a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <!-- <p class="section-subtitle">What Think Client About Me ?</p> -->
+            <h6 class="section-title mb-6">Skills</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <h3 class="components-section-title font-weight-normal mt-5">Progress Bars :</h3> -->
+                    <hr>
+                    <small>HTML </small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>CSS</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 98%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Python</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Django</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>SQL</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Bootstrap</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>javascript</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-yellow" role="progressbar" style="width: 80%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small>Git</small>
+                    <div class="progress mt-2 mb-3">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+
+    <!-- blog section -->
+    <!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="{% url 'contactdata' %}" method="post" class="contact-form col-md-10 col-lg-8 m-auto"
+                enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required name="name">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" requried name="email">
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="message" id="comment" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <button class="btn btn-outline-primary rounded" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+
+            <a href="https://github.com/Anugrxh">
+                <p>Github</p>
+            </a>
+
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.facebook.com/Anugrah.De.Estralla007" class="link"><i class="ti-facebook"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a> -->
+                <a href="" class="link"><i class="ti-google"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a> -->
+                <a href="https://www.instagram.com/anu_grxhh_/" class="link"><i class="ti-instagram"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a> -->
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="{% static 'assets/vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Meyawo js -->
+    <script src="{% static 'assets/js/meyawo.js' %}"></script>
+
+</body>
+
+</html>
